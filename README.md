@@ -34,7 +34,7 @@ library.**
 ## Latest(unstable)
 
 You can also clone it via git:
-
+	https://github.com/omeraygor71/airHMI.git
 
 
 ## Releases(stable)
