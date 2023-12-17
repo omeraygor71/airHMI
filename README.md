@@ -126,7 +126,9 @@ dbSerial and redirect airSerial to Serial(Refer to section:`Serial configuration
 # Useful Links
 
 <https://www.airhmi.com/sample-projects>
+
 <https://www.airhmi.com/education-videos>
+
 <https://www.airhmi.com/instruction>
 
 # License
