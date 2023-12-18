@@ -107,7 +107,7 @@ If you want to change the default serial to debug or communicate with AirHMI ,
 you need to modify the line in configuration file:
 
 	#define dbSerial Serial    ---> #define dbSerial Serialxxx
-    #define airSerial Serial2  ---> #define airSeria Serialxxx
+    #define airSerial Serial2  ---> #define airSerial Serialxxx
 
 ## Disable Debug Serial
 
