@@ -28,20 +28,12 @@ Latest version is unstable and a mass of change may be applied in a short time
 without any notification for users. Commonly, it is for developers of this 
 library. 
 
-**Release version is recommanded for you, unless you are one of developers of this 
-library.**
-
-**Release notes** is at
-<https://github.com/itead/ITEADLIB_Arduino_AirHMI/blob/master/release_notes.md>.
 
 ## Latest(unstable)
 
-Latest source code(master branch) can be downloaded:
-  <https://github.com/itead/ITEADLIB_Arduino_AirHMI/archive/master.zip>. 
 
 You can also clone it via git:
 
-    git clone https://github.com/itead/ITEADLIB_Arduino_AirHMI
 
 ## Releases(stable)
 
@@ -107,7 +99,7 @@ In configuration file AirConfig.h, you can find two macros below:
 
   - airSerial: AirHMI Serial, the bridge of AirHMI and your mainboard.
 
-**Note:** the default configuration is for MEGA2560.
+**Note:** the default configuration is for Uno.
 
 ## Redirect dbSerial and airSerial
 
@@ -132,8 +124,11 @@ dbSerial and redirect airSerial to Serial(Refer to section:`Serial configuration
 # Useful Links
 
 <https://www.airhmi.com/sample-projects>
+
 <https://www.airhmi.com/education-videos>
+
 <https://www.airhmi.com/instruction>
+
 
 # License
 
