@@ -40,13 +40,13 @@ public: /* methods */
      */
     AirTimer(const char *name);
 
-bool AirTimer::getInterval(uint32_t *value);
+bool getInterval(uint32_t *value);
 
-bool AirTimer::setInterval(uint32_t value);
+bool setInterval(uint32_t value);
 
-bool AirTimer::enable(void);
+bool enable(void);
 
-bool AirTimer::disable(void);
+bool disable(void);
 
 };
 /**

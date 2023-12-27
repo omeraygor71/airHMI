@@ -21,7 +21,7 @@ bool AirGpio::digital_write(uint32_t port,uint32_t value)
     char gp[10] = {0};
 
     if( port < 0 || port > 7)
-        return;
+        return false;
 
     String cmd;
     String gpio = "GPIO_";
@@ -46,7 +46,7 @@ uint32_t AirGpio::digital_read(uint32_t port)
     char gp[10] = {0};
 
     if( port < 0 || port > 7)
-        return;
+        return false;
 
     String cmd;
     String gpio = "GPIO_";
@@ -91,7 +91,7 @@ bool AirGpio::set_pwmfreq(uint32_t port ,uint32_t freq , uint32_t duty)
     char par3[10] = {0};
 
     if( port < 0 || port > 3)
-        return;
+        return false;
 
     utoa(port, par1, 10);
     utoa(freq, par2, 10);

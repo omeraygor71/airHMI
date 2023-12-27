@@ -41,5 +41,6 @@
 //#include "AirScrolltext.h"
 #include "AirGpio.h"
 #include "AirRtc.h"
+#include "AirShape.h"
 
 #endif /* #ifndef __AirHMI_H__ */

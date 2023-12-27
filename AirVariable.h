@@ -41,17 +41,17 @@ public: /* methods */
      */
     AirVariable(const char *name);
 
-bool AirVariable::VarSeti(uint32_t value);
+bool VarSeti(uint32_t value);
 
-bool AirVariable::VarSetf(double value);
+bool VarSetf(double value);
 
-bool AirVariable::VarSet(String value);
+bool VarSet(String value);
 
-uint32_t AirVariable::VarGeti(void);
+uint32_t VarGeti(void);
 
-double AirVariable::VarGetf(void);
+double VarGetf(void);
 
-uint16_t AirVariable::VarGet(char *buffer, uint16_t len);
+uint16_t VarGet(char *buffer, uint16_t len);
 };
 /**
  * @}

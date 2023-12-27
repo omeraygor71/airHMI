@@ -64,7 +64,7 @@ void AirTouch::pop(void)
     }
 }
 
-void AirTouch::iterate(AirTouch **list, uint8_t pid, uint8_t cid, int32_t event)
+void AirTouch::iterate(AirTouch **list, uint8_t pid, uint8_t cid, String name ,  int32_t event)
 {
     AirTouch *e = NULL;
     uint16_t i = 0;
@@ -74,10 +74,14 @@ void AirTouch::iterate(AirTouch **list, uint8_t pid, uint8_t cid, int32_t event)
         return;
     }
     
+   
+
     for(i = 0; (e = list[i]) != NULL; i++)
     {
-        if (e->getObjName() == pid && e->getObjCid() == cid)
+
+        if (String(e->getObjName()) == name )
         {
+             
             e->printObjInfo();
             if (AIR_EVENT_PUSH == event)
             {

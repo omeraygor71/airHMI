@@ -35,13 +35,13 @@ public: /* methods */
      */
     AirProgressBar( const char *name);
     
-uint32_t AirProgressBar::Set_Value(uint32_t value);
+uint32_t Set_Value(uint32_t value);
 
-uint32_t AirProgressBar::Set_Color(uint32_t value);
+uint32_t Set_Color(uint32_t value);
 
-uint32_t AirProgressBar::Get_Value(uint32_t *value);
+uint32_t Get_Value(uint32_t *value);
 
-uint32_t AirProgressBar::Get_Color(uint32_t *value);
+uint32_t Get_Color(uint32_t *value);
 
 };
 

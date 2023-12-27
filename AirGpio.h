@@ -32,13 +32,13 @@ class AirGpio
 {
 public:
 
-bool AirGpio::digital_write(uint32_t port,uint32_t value);
+bool digital_write(uint32_t port,uint32_t value);
 
-uint32_t AirGpio::digital_read(uint32_t port);
+uint32_t digital_read(uint32_t port);
 
-double AirGpio::analog_read(uint32_t port);
+double analog_read(uint32_t port);
 
-bool AirGpio::set_pwmfreq(uint32_t port ,uint32_t freq , uint32_t duty);
+bool set_pwmfreq(uint32_t port ,uint32_t freq , uint32_t duty);
      
 };
     

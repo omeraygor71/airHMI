@@ -34,7 +34,7 @@
 /**
  * Pop touch event occuring when your finger or pen leaving from AirHMI touch pannel. 
  */
-#define AIR_EVENT_POP   (0x00)  
+#define AIR_EVENT_POP   (0x02)  
 
 /**
  * Type of callback funciton when an touch event occurs. 
@@ -53,7 +53,7 @@ typedef void (*AirTouchEventCb)(void *ptr);
 class AirTouch: public AirObject
 {
 public: /* static methods */    
-    static void iterate(AirTouch **list, uint8_t pid, uint8_t cid, int32_t event);
+    static void iterate(AirTouch **list, uint8_t pid, uint8_t cid,String name, int32_t event);
 
 public: /* methods */
 

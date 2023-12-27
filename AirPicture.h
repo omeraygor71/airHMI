@@ -31,31 +31,31 @@ class AirPicture: public AirTouch
 {
 public: /* methods */
 
-AirPicture::AirPicture( const char *name);
+AirPicture( const char *name);
 
-uint32_t AirPicture::Get_visible(uint32_t *number);
+uint32_t Get_visible(uint32_t *number);
 
-uint32_t AirPicture::Get_left(uint32_t *number);
+uint32_t Get_left(uint32_t *number);
 
-uint32_t AirPicture::Get_top(uint32_t *number);
+uint32_t Get_top(uint32_t *number);
 
-uint32_t AirPicture::Get_width(uint32_t *number);
+uint32_t Get_width(uint32_t *number);
 
-uint32_t AirPicture::Get_height(uint32_t *number);
+uint32_t Get_height(uint32_t *number);
 
-uint32_t AirPicture::Set_Image_File(String imgName);
+uint32_t Set_Image_File(String imgName);
 
-uint32_t AirPicture::Set_active(uint32_t number);
+uint32_t Set_active(uint32_t number);
 
-uint32_t AirPicture::Set_visible(uint32_t number);
+uint32_t Set_visible(uint32_t number);
 
-uint32_t AirPicture::Set_left(uint32_t number);
+uint32_t Set_left(uint32_t number);
 
-uint32_t AirPicture::Set_top(uint32_t number);
+uint32_t Set_top(uint32_t number);
 
-uint32_t AirPicture::Set_width(uint32_t number);
+uint32_t Set_width(uint32_t number);
 
-uint32_t AirPicture::Set_height(uint32_t number);
+uint32_t Set_height(uint32_t number);
 };
 
 #endif /* #ifndef __AIRPICTURE_H__ */

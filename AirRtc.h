@@ -32,9 +32,9 @@ class AirRtc
 {
     public:
 
-bool AirRtc::dateSet(int day,int month,int year);
+bool dateSet(int day,int month,int year);
 
-bool AirRtc::timeSet(int hour,int min);
+bool timeSet(int hour,int min);
     
 };
 
